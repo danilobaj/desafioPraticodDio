@@ -1,7 +1,7 @@
 # Desafio Pratico Dio
 Desafio Pratico da DIO
 
-#### Nesse repositório vou subir 2 códigos escritos em Java, feito por mim no desafio prático da Trybe.
+#### Nesse repositório vou subir 3 códigos escritos em Java, feito por mim no desafio prático da Trybe.
 
 ### Multiplicando os elementos dentro do Array por 3
 ``````
@@ -22,5 +22,18 @@ function vezesLetraAparece(frase, letra) {
         }
     }
     return contador;
+}
+``````
+### Calculadora de Adição ou Subitração
+``````
+function calculadoraAdicaoSubitracao (numero, outroNumero, operacao) {
+
+  if (operacao === "+") {
+        return(operacao = numero + outroNumero)
+  } else if (operacao === "-") {
+        return (operacao = numero - outroNumero) 
+  } else {
+        return (0)
+  }
 }
 ``````
