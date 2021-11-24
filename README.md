@@ -12,7 +12,7 @@ function tripleTheChances(chances) {
     return chances;
 }
 ``````
-### Contar quantas vezes uma letra se repete numa frase
+### Contar quantas vezes uma letra X se repete numa frase
 ``````
 function vezesLetraAparece(frase, letra) {
     let contador = 0;
